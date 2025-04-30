@@ -12,15 +12,15 @@ const searchInput = document.querySelector("#search-input")
 function renderMovieList(data) {
   let rawHTML = ''
   data.forEach(item =>
-    rawHTML += `<div class="col-sm-2">
-                <div class="mb-2">
-                    <div class="card">
+    rawHTML += `<div class="col-sm-2 mb-3">
+                <div class="mb-2 h-100">
+                    <div class="card h-100 d-flex flex-column">
                         <img src="${POSTER_URL + item.image}"
                             class="card-img-top" alt="Movie poster">
                         <div class="card-body">
                             <h5 class="card-title">${item.title}</h5>
                         </div>
-                        <div class="card-footer">
+                        <div class="card-footer mt-auto">
                             <button class="btn btn-primary btn-show-movie" data-bs-toggle="modal"
                                 data-bs-target="#movie-modal" data-id="${item.id}">More</button>
                             <button class="btn btn-danger btn-remove-favorite" data-id="${item.id}">X</button>
