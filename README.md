@@ -1,7 +1,7 @@
 # Movie List
 A simple web application for movie fanatic
-<img>
-<img>
+<img width="941" alt="main" src="https://github.com/user-attachments/assets/d8862c76-16db-4831-b257-449ab295c3ad" />
+<img width="944" alt="pagination" src="https://github.com/user-attachments/assets/5bd9e188-5bc7-4e90-8ae7-aab81d62a77a" />
 
 ## Features
 - listing movies from movie api
